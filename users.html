@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Manage dashboard users">
+  <title>Users | NEXUS Admin</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="topbar">
+    <a class="brand" href="index.html">NEXUS<span> Admin</span></a>
+    <span class="status-indicator">System online</span>
+  </header>
+
+  <div class="app-layout">
+    <aside class="sidebar" aria-label="Sidebar">
+      <p class="nav-heading">WORKSPACE</p>
+      <nav aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="index.html">▦ Dashboard</a></li>
+          <li><a class="nav-link active" href="users.html"
+            aria-current="page">♙ Users</a></li>
+          <li><a class="nav-link" href="reports.html">▥ Reports</a></li>
+        </ul>
+      </nav>
+      <footer class="sidebar-footer">
+        <p>Accessible by design</p>
+        <small>WCAG 2.1 · HTML5</small>
+      </footer>
+    </aside>
+
+    <main id="main-content" class="main-content">
+      <section class="page-heading">
+        <div>
+          <p class="eyebrow">WORKSPACE</p>
+          <h1>Users</h1>
+          <p class="muted">Review registered users and their roles.</p>
+        </div>
+      </section>
+
+      <section class="panel" aria-labelledby="users-title">
+        <div class="panel-heading">
+          <h2 id="users-title">All users</h2>
+          <a class="text-link" href="index.html">← Back to dashboard</a>
+        </div>
+        <div class="table-wrapper">
+          <table>
+            <caption class="visually-hidden">Registered user accounts</caption>
+            <thead>
+              <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Email</th>
+                <th scope="col">Role</th>
+                <th scope="col">Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Arun Kumar</td>
+                <td>arun@example.com</td>
+                <td>Admin</td>
+                <td><span class="badge badge-success">Active</span></td>
+              </tr>
+              <tr>
+                <td>Priya Sharma</td>
+                <td>priya@example.com</td>
+                <td>Editor</td>
+                <td><span class="badge badge-success">Active</span></td>
+              </tr>
+              <tr>
+                <td>Rahul Das</td>
+                <td>rahul@example.com</td>
+                <td>Viewer</td>
+                <td><span class="badge badge-warning">Pending</span></td>
+              </tr>
+              <tr>
+                <td>Meena Raj</td>
+                <td>meena@example.com</td>
+                <td>Editor</td>
+                <td><span class="badge badge-success">Active</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <footer class="page-footer">
+        <p>© 2026 NEXUS Admin.</p>
+      </footer>
+    </main>
+  </div>
+</body>
+</html>

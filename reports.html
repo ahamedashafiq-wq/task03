@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Workspace reports and statistics">
+  <title>Reports | NEXUS Admin</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="topbar">
+    <a class="brand" href="index.html">NEXUS<span> Admin</span></a>
+    <span class="status-indicator">System online</span>
+  </header>
+
+  <div class="app-layout">
+    <aside class="sidebar" aria-label="Sidebar">
+      <p class="nav-heading">WORKSPACE</p>
+      <nav aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="index.html">▦ Dashboard</a></li>
+          <li><a class="nav-link" href="users.html">♙ Users</a></li>
+          <li><a class="nav-link active" href="reports.html"
+            aria-current="page">▥ Reports</a></li>
+        </ul>
+      </nav>
+      <footer class="sidebar-footer">
+        <p>Accessible by design</p>
+        <small>WCAG 2.1 · HTML5</small>
+      </footer>
+    </aside>
+
+    <main id="main-content" class="main-content">
+      <section class="page-heading">
+        <div>
+          <p class="eyebrow">ANALYTICS</p>
+          <h1>Reports</h1>
+          <p class="muted">A summary of your workspace performance.</p>
+        </div>
+      </section>
+
+      <section class="stats-grid" aria-label="Report summary">
+        <article class="stat-card">
+          <p>Total users</p>
+          <h2>2,450</h2>
+          <span class="positive">+12.5%</span>
+        </article>
+        <article class="stat-card">
+          <p>Revenue</p>
+          <h2>₹48,250</h2>
+          <span class="positive">+8.2%</span>
+        </article>
+        <article class="stat-card">
+          <p>Active sessions</p>
+          <h2>184</h2>
+          <span class="positive">Currently online</span>
+        </article>
+        <article class="stat-card">
+          <p>Pending requests</p>
+          <h2>12</h2>
+          <span class="warning-text">Requires attention</span>
+        </article>
+      </section>
+
+      <section class="panel" aria-labelledby="activity-title">
+        <h2 id="activity-title">Monthly activity</h2>
+        <p class="muted">
+          The following figures are illustrative sample data for the dashboard.
+        </p>
+        <div class="table-wrapper">
+          <table>
+            <caption class="visually-hidden">Monthly activity report</caption>
+            <thead>
+              <tr>
+                <th scope="col">Month</th>
+                <th scope="col">New users</th>
+                <th scope="col">Revenue</th>
+                <th scope="col">Growth</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>July</td>
+                <td>180</td>
+                <td>₹32,000</td>
+                <td>+5.0%</td>
+              </tr>
+              <tr>
+                <td>August</td>
+                <td>215</td>
+                <td>₹38,500</td>
+                <td>+7.4%</td>
+              </tr>
+              <tr>
+                <td>September</td>
+                <td>260</td>
+                <td>₹48,250</td>
+                <td>+12.5%</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <footer class="page-footer">
+        <p>© 2026 NEXUS Admin.</p>
+      </footer>
+    </main>
+  </div>
+</body>
+</html>
